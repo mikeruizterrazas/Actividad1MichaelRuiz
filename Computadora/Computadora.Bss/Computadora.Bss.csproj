@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Computadora.Dal\Computadora.Dal.csproj" />
+    <ProjectReference Include="..\Computadora.Modelos\Computadora.Modelos.csproj" />
+  </ItemGroup>
+
 </Project>
